@@ -1,0 +1,24 @@
+@font-face {
+    font-family: clashDisplay;
+    src: url("../assets/fonts/ClashDisplay/Fonts/OTF/ClashDisplay-Regular.otf");
+}
+
+@font-face {
+	font-family: clashDisplayBold;
+	src: url("../assets/fonts/ClashDisplay/Fonts/OTF/ClashDisplay-Bold.otf");
+}
+
+@font-face {
+	font-family: clashDisplaySemibold;
+	src: url("../assets/fonts/ClashDisplay/Fonts/OTF/ClashDisplay-Semibold.otf");
+}
+
+@font-face {
+	font-family: outfit;
+	src: url("../assets/fonts/Outfit/static/Outfit-Regular.ttf");
+}
+
+@font-face {
+	font-family: poppins;
+	src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+}
