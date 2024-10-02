@@ -12,19 +12,19 @@ import {GlobeAltIcon} from '@heroicons/react/24/solid'
 import xiaomilogo from '../assets/img/xiaomilogo.png'
 import applelogo from '../assets/img/applelogo.png'
 
-import {ShieldCheckIcon} from '@heroicons/react/24/solid'
-import {SparklesIcon} from '@heroicons/react/24/solid'
-import {UsersIcon} from '@heroicons/react/24/solid'
-import {ChartBarIcon} from '@heroicons/react/24/solid'
+// import {ShieldCheckIcon} from '@heroicons/react/24/solid'
+// import {SparklesIcon} from '@heroicons/react/24/solid'
+// import {UsersIcon} from '@heroicons/react/24/solid'
+// import {ChartBarIcon} from '@heroicons/react/24/solid'
 
-import propositionimg from '../assets/img/valueproposition.png.webp'
-import Button from "../components/Button"
+// import propositionimg from '../assets/img/valueproposition.png.webp'
+// import Button from "../components/Button"
 
-import topcompany1 from "../assets/img/topcompany1.jpg"
-import topcompany2 from "../assets/img/topcompany2.jpg"
-import topcompany3 from "../assets/img/topcompany3.jpg"
+// import topcompany1 from "../assets/img/topcompany1.jpg"
+// import topcompany2 from "../assets/img/topcompany2.jpg"
+// import topcompany3 from "../assets/img/topcompany3.jpg"
 
-import adobelogo from '../assets/img/adobelogo.png'
+// import adobelogo from '../assets/img/adobelogo.png'
 import Footer from "../components/Footer"
 
 
@@ -341,7 +341,7 @@ const Home = () => {
 
         </section>
 
-        <section className="bg-white pt-20 pb-32 px-5">
+        {/* <section className="bg-white pt-20 pb-32 px-5">
             <div className="flex flex-col md:flex-row justify-center items-center gap-y-4 gap-x-10">
                 <div className="md:max-w-[450px] w-full">
                     <h1 className="text-3xl font-bold leading-10 pb-5 font-outfit">Our Value Proposition</h1>
@@ -389,9 +389,9 @@ const Home = () => {
 
             </div>
              
-        </section>
+        </section> */}
 
-        <section className="px-5 py-20 bg-[#cccccc41]">
+        {/* <section className="px-5 py-20 bg-[#cccccc41]">
 
             <div className="max-w-[1300px] mx-auto">
 
@@ -510,7 +510,7 @@ const Home = () => {
 
             </div>
 
-        </section>
+        </section> */}
 
         <Footer />
 
