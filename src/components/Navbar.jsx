@@ -1,7 +1,7 @@
 //import React from 'react'
 import { useEffect, useState } from "react"
 import {Link} from "react-router-dom"
-import jobslogo from "../assets/img/jobbbs.png"
+import jobbbs from "../assets/img/Jobbbs.png"
 
 const Navbar = () => {
     const [isShrinking, setIsShrinking] = useState(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className="w-full fixed top-0 z-50 left-0 right-0 bg-[#f4f1f1]">
         <div className="max-w-[1300px]  w-full flex items-center justify-between gap-x-3 mx-auto py-[24px] px-5 md:px-5 2xl:px-[122px]">
             <Link to="/" className="z-40">
-                <img  src={jobslogo} className="w-[150px]" alt="logo" />
+                <img  src={jobbbs} className="w-[150px]" alt="jobbbs" />
             </Link>
 
             {/* <ul className={`flex flex-col lg:hidden 
