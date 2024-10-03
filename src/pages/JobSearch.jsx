@@ -29,7 +29,8 @@ const JobSearch = () => {
                 (job) => 
                     job.company.toLowerCase().includes(value) || 
                     job.role.toLowerCase().includes(value) || 
-                    job.location.toLowerCase().includes(value) 
+                    job.location.toLowerCase().includes(value) ||
+                    job.country.toLowerCase().includes(value)
             );
 
             setFilteredJobs(filtered)

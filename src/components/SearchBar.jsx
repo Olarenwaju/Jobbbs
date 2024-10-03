@@ -14,7 +14,7 @@ const SearchBar = ({ searchTerm, onSearchChange, onSearchClick, }) => {
         type='text'
         value={searchTerm}
         onChange={onSearchChange}
-        placeholder='search by company, role or location'
+        placeholder='search by company, role, country or location'
         className="bg-gray-100 outline-none flex-grow"
       />
 
