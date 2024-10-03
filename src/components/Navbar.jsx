@@ -6,9 +6,9 @@ const Navbar = () => {
     const [isShrinking, setIsShrinking] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen)
-    };
+    // const toggleMenu = () => {
+    //     setIsOpen(!isOpen)
+    // };
 
     const handleClick = () => {
 		setIsShrinking(true);
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <img src="" alt="logo" />
             </Link>
 
-            <ul className={`flex flex-col lg:hidden 
+            {/* <ul className={`flex flex-col lg:hidden 
                 ${
                     isOpen ? "left-0" : "left-[-100%]"
                 } absolute top-0 left-0 z-10 shadow-xl px-5 transition-all h-screen w-[75%] sm:w-[50%] bg-[#f4f1f1] pt-[150px] gap-y-3 gap-x-[70px] items-start font-outfit font-semibold text-[#08072D] text-[20px] leading-[24px]`}>
@@ -42,15 +42,15 @@ const Navbar = () => {
                 onClick={handleClick}>
                     Post New Jobs
                 </button>
-            </ul>
+            </ul> */}
 
-            <ul className="hidden lg:flex gap-x-[70px] mx-auto items-center w-fit font-outfit font-semibold text-[#08072D] text-[18px] leading-[24px]">
+            {/* <ul className="hidden lg:flex gap-x-[70px] mx-auto items-center w-fit font-outfit font-semibold text-[#08072D] text-[18px] leading-[24px]">
                 
-            </ul>
+            </ul> */}
 
             <Link to="/job-search">
                 <button
-                    className={`bg-[#08072D] hover:bg-[#08072D]/90 font-outfit transition-opacity hidden sm:block ms-auto lg:ms-0 text-white text-[18px] font-medium px-[30px] py-[15px] rounded-[5px] ${
+                    className={`bg-[#08072D] hover:bg-[#08072D]/90 font-outfit transition-opacity ms-auto lg:ms-0 text-white text-[18px] font-medium px-[30px] py-[15px] rounded-[5px] ${
                         isShrinking ? "transform scale-90" : ""
                     } transition-transform duration-500`}
                     onClick={handleClick}
@@ -60,7 +60,7 @@ const Navbar = () => {
                 </button>
             </Link>
             
-            <button
+            {/* <button
 				onClick={toggleMenu}
 				className="text-gray-600 focus:outline-none lg:hidden">
 				{isOpen ? (
@@ -92,7 +92,7 @@ const Navbar = () => {
 						/>
 					</svg>
 				)}
-			</button>
+			</button> */}
 
         </div>
     </nav>
